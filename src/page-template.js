@@ -6,49 +6,49 @@ module.exports = templateData => {
     
     
     
-    return `
+return `
     
-    # ${title} ![badmath](https://img.shields.io/badge/license-${license}-blue)
+# ${title} ![badmath](https://img.shields.io/badge/license-${license}-blue)
     
-    ## Description
+## Description
 
-    ${description} 
+${description} 
 
-    ## Table of Contents 
+## Table of Contents 
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing Guidlines](#contributing-guidlines)
-    - [Test Instructions](#test-instructions)
-    - [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing Guidlines](#contributing-guidlines)
+- [Test Instructions](#test-instructions)
+- [Questions](#questions)
 
-    ## Installation
+## Installation
 
-    ${install}
+${install}
 
-    ## Usage
+## Usage
 
-    ${usage}
+${usage}
 
-    ## License
+## License
 
-    ![badmath](https://img.shields.io/badge/license-${license}-blue)
+![badmath](https://img.shields.io/badge/license-${license}-blue)
 
-    This project is using the ${license} license. For more information on this and other licenses please reference: [https://choosealicense.com/](https://choosealicense.com/).
+This project is using the ${license} license. For more information on this and other licenses please reference: [https://choosealicense.com/](https://choosealicense.com/).
 
     ## Contributing Guidlines
 
-    ${guidlines || 'This project is using the [Contributor Covenant](https://www.contributor-covenant.org/) as a default. Please read over these guidlines before contributing'}
+${guidlines || 'This project is using the [Contributor Covenant](https://www.contributor-covenant.org/) as a default. Please read over these guidlines before contributing'}
     
-    ## Test Instructions
+## Test Instructions
 
-    ${testing}
+${testing}
 
-    ## Questions
-    Reach out via my [Github Profile](https://github.com/${github})
-    Or email me at ${email} if you have any questions.
-    `;
+## Questions
+Reach out via my [Github Profile](https://github.com/${github})
+Or email me at ${email} if you have any questions.
+`;
   };
 
   
