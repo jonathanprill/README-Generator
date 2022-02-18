@@ -1,0 +1,1 @@
+{"title":"dfg","description":"dfg","install":"dfg","usage":"dfg","license":"Apache 2.0","confirmGuidlines":false,"testing":"dfg","github":"dfg","email":"fdg"}
