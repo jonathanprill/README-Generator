@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require ('fs');
 const inquirer = require('inquirer');
+const generatePage = require('./src/page-template.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -139,7 +140,10 @@ function init() {return inquirer.prompt(questions)}
 // Function call to initialize app
 init()
   .then(data => {
-    return writeToFile(JSON.stringify(data)); // The finished portfolio data object is returned as portfolioData and sent into the generatePage() function, which will return the finished HTML template code into pageHTML.
+    return generatePage(data); // The finished portfolio data object is returned as portfolioData and sent into the generatePage() function, which will return the finished HTML template code into pageHTML.
+  })
+  .then(pageHTML => {
+    return writeToFile(pageHTML); // We pass pageHTML into the newly created writeFile() function, which returns a Promise. This is why we use return here, so the Promise is returned into the next .then() method. 
   })
   
   .catch(err => {
