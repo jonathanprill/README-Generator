@@ -61,7 +61,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: "Choose a license. A license tells others what they can and can't do with your code.",
-    choices: ['Apache 2.0', 'MIT', 'BSD', 'Boost-Software', 'Mozilla', 'GNU', 'Eclipse']
+    choices: ['Apache2.0', 'MIT', 'BSD', 'Boost-Software', 'Mozilla', 'GNU', 'Eclipse']
   },
   {
     type: 'confirm',

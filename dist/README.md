@@ -1,11 +1,11 @@
 
     
-    # dfg ![badmath](https://img.shields.io/badge/license-Apache 2.0-blue)
+    # PORTFOLIO GENERATOR ![badmath](https://img.shields.io/badge/license-MIT-blue)
     
 
     ## Description
 
-    dfg 
+    TO GENERATE CUSTOM PORTFOLIOS EASY 
 
     ## Table of Contents 
 
@@ -18,33 +18,28 @@
 
     ## Installation
 
-    fg
+    NEED TO INTALL INQUIRER AND NODE
 
     ## Usage
 
-    fdg
+    SCREENSHOTS  AND INSTUCTIONS HERE
 
     ## License
 
-    ![badmath](https://img.shields.io/badge/license-Apache 2.0-blue)
+    ![badmath](https://img.shields.io/badge/license-MIT-blue)
 
-    This project is under a Apache 2.0 license. More info on licensing can be found here: [https://choosealicense.com/](https://choosealicense.com/).
+    This project is using the MIT license. For more information on this and other licenses please reference: [https://choosealicense.com/](https://choosealicense.com/).
 
     ## Contributing Guidlines
 
-    CUSTOM
+    THESE ARE MY CUSTOM GUIDLINES
     
 
     ## Test Instructions
 
-    Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+    TESTING INSTUCTIONS ARE HERE
 
     ## Questions
-    Reach out via my gitbug profile here
-    <link to github profile>
-    or email me at
-    <link to email address>
-
-
-
+    Reach out via my Github Profile: [Github Profile](https://github.com/jonathanprill)
+    Or email me at jonyprill@gmail.com if you have any questions.
     

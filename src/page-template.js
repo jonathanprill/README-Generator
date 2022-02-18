@@ -10,7 +10,6 @@ module.exports = templateData => {
     
     # ${title} ![badmath](https://img.shields.io/badge/license-${license}-blue)
     
-
     ## Description
 
     ${description} 
@@ -36,25 +35,19 @@ module.exports = templateData => {
 
     ![badmath](https://img.shields.io/badge/license-${license}-blue)
 
-    This project is under a ${license} license. More info on licensing can be found here: [https://choosealicense.com/](https://choosealicense.com/).
+    This project is using the ${license} license. For more information on this and other licenses please reference: [https://choosealicense.com/](https://choosealicense.com/).
 
     ## Contributing Guidlines
 
-    ${guidlines || 'Using [Contributor Covenant](https://www.contributor-covenant.org/) as a standard.'}
+    ${guidlines || 'This project is using the [Contributor Covenant](https://www.contributor-covenant.org/) as a default. Please read over these guidlines before contributing'}
     
-
     ## Test Instructions
 
-    Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+    ${testing}
 
     ## Questions
-    Reach out via my gitbug profile here
-    <link to github profile>
-    or email me at
-    <link to email address>
-
-
-
+    Reach out via my [Github Profile](https://github.com/${github})
+    Or email me at ${email} if you have any questions.
     `;
   };
 
