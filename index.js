@@ -125,7 +125,7 @@ const questions = [
 // TODO: Create a function to write README file
 
 function writeToFile(data) {
-  fs.writeFile('./dist/README.md', `${data}`, err => {
+  fs.writeFile('./dist/README.md', data, err => {
   if (err) throw err;
 
   console.log('README complete! Check out README.md to see the output!');
@@ -135,15 +135,17 @@ function writeToFile(data) {
 
 
 // TODO: Create a function to initialize app
-function init() {return inquirer.prompt(questions)}
+function init() {
+  return inquirer.prompt(questions)
+}
 
 // Function call to initialize app
 init()
   .then(data => {
     return generatePage(data); // The finished portfolio data object is returned as portfolioData and sent into the generatePage() function, which will return the finished HTML template code into pageHTML.
   })
-  .then(pageHTML => {
-    return writeToFile(pageHTML); // We pass pageHTML into the newly created writeFile() function, which returns a Promise. This is why we use return here, so the Promise is returned into the next .then() method. 
+  .then(pageREADME => {
+    return writeToFile(pageREADME); // We pass pageHTML into the newly created writeFile() function, which returns a Promise. This is why we use return here, so the Promise is returned into the next .then() method. 
   })
   
   .catch(err => {

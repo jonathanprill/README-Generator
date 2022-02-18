@@ -1,11 +1,10 @@
 
     
-    # PORTFOLIO GENERATOR ![badmath](https://img.shields.io/badge/license-MIT-blue)
+    # Portfolio Generator ![badmath](https://img.shields.io/badge/license-MIT-blue)
     
-
     ## Description
 
-    TO GENERATE CUSTOM PORTFOLIOS EASY 
+    This project was created to generate consistent, high quality README files. After generating dozens of README files from scratch I decided to build this app to make my life easier. 
 
     ## Table of Contents 
 
@@ -18,11 +17,11 @@
 
     ## Installation
 
-    NEED TO INTALL INQUIRER AND NODE
+    To install this project you can clone or download the zip file. Install Node if you do not already have it. Then navigate to the root directory of the project in your terminal. Once there type 'npm install' and press enter. You are now all set to use the app!
 
     ## Usage
 
-    SCREENSHOTS  AND INSTUCTIONS HERE
+    ![ScreenShot](/assets/images/chessmaster1.png "screenshot1") To start navigate to the root directory of the project and type 'node index.js' and press enter. Then follow the instructions and fill out the questions as thorougly as possible. When complete your file can now be found in the dist folder!
 
     ## License
 
@@ -32,14 +31,13 @@
 
     ## Contributing Guidlines
 
-    THESE ARE MY CUSTOM GUIDLINES
+    This project is using the [Contributor Covenant](https://www.contributor-covenant.org/) as a default. Please read over these guidlines before contributing
     
-
     ## Test Instructions
 
-    TESTING INSTUCTIONS ARE HERE
+    To test this app follow the instructions above. Open in VS code and play around with different README templates.
 
     ## Questions
-    Reach out via my Github Profile: [Github Profile](https://github.com/jonathanprill)
-    Or email me at jonyprill@gmail.com if you have any questions.
+    Reach out via my [Github Profile](https://github.com/jonathanprill)
+    Or email me at test@gmail.com if you have any questions.
     

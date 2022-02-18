@@ -1,44 +1,43 @@
-# <Your-Project-Title>
-<!-- https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR> -->
 
-## Description
+    
+    # Portfolio Generator ![badmath](https://img.shields.io/badge/license-MIT-blue)
+    
+    ## Description
 
-Provide a short description explaining the what, why, and how of your project. 
+    This project was created to generate consistent, high quality README files. After generating dozens of README files from scratch I decided to build this app to make my life easier. 
 
-## Table of Contents 
+    ## Table of Contents 
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [License](#license)
+    - [Contributing Guidlines](#contributing-guidlines)
+    - [Test Instructions](#test-instructions)
+    - [Questions](#questions)
 
-## Installation
+    ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+    To install this project you can clone or download the zip file. Install Node if you do not already have it. Then navigate to the root directory of the project in your terminal. Once there type 'npm install' and press enter. You are now all set to use the app!
 
-## Usage
+    ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+    ![ScreenShot](/assets/images/chessmaster1.png "screenshot1") To start navigate to the root directory of the project and type 'node index.js' and press enter. Then follow the instructions and fill out the questions as thorougly as possible. When complete your file can now be found in the dist folder!
 
-## License
+    ## License
 
-Let other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-<!-- https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR> -->
+    ![badmath](https://img.shields.io/badge/license-MIT-blue)
 
-<!-- https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR> -->
-<!-- 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath) -->
+    This project is using the MIT license. For more information on this and other licenses please reference: [https://choosealicense.com/](https://choosealicense.com/).
 
-## Contributing Guidlines
+    ## Contributing Guidlines
 
-Include specific guidelines for how to contribute, or if you'd prefer use [Contributor Covenant](https://www.contributor-covenant.org/) as a  standard.
+    This project is using the [Contributor Covenant](https://www.contributor-covenant.org/) as a default. Please read over these guidlines before contributing
+    
+    ## Test Instructions
 
-## Test Instructions
+    To test this app follow the instructions above. Open in VS code and play around with different README templates.
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-
-## Questions
-Reach out via my gitbug profile here
-<link to github profile>
-or email me at
-<link to email address>
+    ## Questions
+    Reach out via my [Github Profile](https://github.com/jonathanprill)
+    Or email me at test@gmail.com if you have any questions.
+    
