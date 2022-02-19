@@ -20,7 +20,7 @@ To install this project you can clone or download the zip file. Install Node if 
 ## Usage
 
 https://drive.google.com/file/d/1AFmAA9VnlUAWVOUEvc40V26UtxTXJ3OB/view
-![ScreenShot](/assets/images/capture1.png "screenshot1") To start navigate to the root directory of the project and type 'node index.js' and press enter. Then follow the instructions and fill out the questions as thorougly as possible. When complete your file can now be found in the dist folder!
+![ScreenShot](/assets/images/capture1.PNG "screenshot1") To start navigate to the root directory of the project and type 'node index.js' and press enter. Then follow the instructions and fill out the questions as thorougly as possible. When complete your file can now be found in the dist folder!
 
 ## License
 
